@@ -1,0 +1,11 @@
+<header class="header">
+    <h2>Job Board</h2>
+    <div class="mode-toggle">
+      <label class="switch">
+        <input type="checkbox" [(ngModel)]="isDarkMode" (change)="onToggleDarkMode()">
+        <span class="slider"></span>
+      </label>
+      <span>{{ isDarkMode ? '' : '' }}</span>
+    </div>
+  </header>
+  

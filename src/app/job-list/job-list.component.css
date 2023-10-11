@@ -1,0 +1,23 @@
+.job-listing {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.job-listing h3, .job-listing p {
+  margin: 0;
+}
+
+.dark-mode .job-listing {
+    background-color: #333;
+    color: #fff;
+  }
+  
+
+.job-listing.dark-mode h3, .job-listing.dark-mode p {
+  color: #fff;
+}
